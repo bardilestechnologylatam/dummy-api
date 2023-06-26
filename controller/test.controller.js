@@ -1,7 +1,7 @@
 test = {}
 
 test.saludo = (req, res)=>{
-    res.res("Hola Mundo")
+    res.send("Hola Mundo")
 }
 
 module.exports = test;
