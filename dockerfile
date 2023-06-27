@@ -11,4 +11,5 @@ COPY . /app
 # Expone el puerto en el que se ejecutará tu aplicación
 EXPOSE 50000
 # Define el comando para iniciar tu aplicación
+
 CMD ["node", "index.js"]
