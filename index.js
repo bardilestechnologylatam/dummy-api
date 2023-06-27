@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/api', testRoute);
 
 // Puerto de escucha
-const port = 10000;
+const port = 50000;
 app.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
 });
